@@ -366,14 +366,18 @@ section #row-2 #sub-row .col div article  img{
     /* border: solid 2px black; */
 }
 #row-4 #sub-row2-fotos .container-galeria{
+    width: 100%;
     display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     grid-gap: 10px;
 }
-
+.item-galeria{
+    width: 100%;
+    max-width: 400px;
+    min-width: 220px;
+}
 .item-galeria img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
